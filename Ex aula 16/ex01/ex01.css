@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font: normal 15pt arial;
+    background-color: #3c9ff5;
+}
+section{
+    width: 700px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+}
+h1, footer{
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
