@@ -1,9 +1,10 @@
-var input_number = document.querySelector('#input_number')
-var seletc_guarda = document.querySelector('#guarda_numbers')
-var res = document.querySelector('#res')
-var numbers = []
+let input_number = document.querySelector('#input_number')
+let seletc_guarda = document.querySelector('#guarda_numbers')
+let res = document.querySelector('#res')
+let numbers = []
 
 function analisar(){
+    res.innerHTML = ``
     let inpt_number = Number(input_number.value)
     if(inpt_number > 100){
         alert('[Erro], Você digitou um número maior que 100')
@@ -18,8 +19,9 @@ function analisar(){
             }
         }
         if(f){
-            alert(`tem ${inpt_number}`)
+            alert(`Número já encontrado na lista${inpt_number}`)
         }else{
+           
             numbers.push(inpt_number)
             let item = document.createElement('option')
             item.text = `Valor ${inpt_number} Adicionado`
@@ -38,9 +40,11 @@ function finalizar(){
         media = soma / numbers.length
         numbers.sort()
         res.innerHTML = `<br>Ao todo, temos ${numbers.length} números cadastrados</br>`
-        res.innerHTML += `<br>O maior valor foi ${numbers[numbers.length - 1]}</br>`
-        res.innerHTML += `<br>soma: ${soma}</br>`
+        res.innerHTML += `<br>O maior valor encontrado foi ${numbers[numbers.length - 1]}</br>`
+        res.innerHTML += `<br>O menor número encontrado foi ${numbers[0]} </br>`
         res.innerHTML += `<br>média: ${media.toFixed(2)}</br>`
+        res.innerHTML += `<br>soma: ${soma}</br>`
     }
+    
     
 }
