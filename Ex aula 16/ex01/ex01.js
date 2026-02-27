@@ -21,7 +21,7 @@ function analisar(){
         if(f){
             alert(`Número já encontrado na lista${inpt_number}`)
         }else{
-           
+            
             numbers.push(inpt_number)
             let item = document.createElement('option')
             item.text = `Valor ${inpt_number} Adicionado`
