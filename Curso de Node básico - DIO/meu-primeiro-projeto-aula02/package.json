@@ -1,0 +1,21 @@
+{
+  "name": "projetos-javascript",
+  "version": "1.0.0",
+  "description": "Aprendendo **JavaScript** e **NodeJs** para **aplicações WEB**",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HenriqueBranco8/JS-Node-Basico-e-Avancado.git"
+  },
+  "keywords": [],
+  "author": "Henrique-Branco",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/HenriqueBranco8/JS-Node-Basico-e-Avancado/issues"
+  },
+  "homepage": "https://github.com/HenriqueBranco8/JS-Node-Basico-e-Avancado#readme"
+}
