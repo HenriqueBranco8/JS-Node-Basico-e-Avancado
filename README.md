@@ -1,2 +1,2 @@
 # Projetos-JavaScript
-Aprendendo **JavaScript** e **NodeJs** para **aplicações WEB**
+Aprendendo **JavaScript** para **aplicações WEB**
